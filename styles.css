@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header
+{
+    background-color: rgb(6, 6, 75); /* Fondo azul */
+    padding: 20px;
+    color: white; /* Color de texto blanco */
+    margin-left: 20px;
+    margin-top: 1%;
+    width: 90%;
+}
+
+.circle {
+    width: 110px; /* Ancho del círculo */
+    height: 110px; /* Alto del círculo */
+    border-radius: 50%; /* Hace el contorno redondeado */
+    background-color: black; /* Color del círculo */
+    margin-top: -30px;
+    margin-left: -55px;
+    position: absolute; /* Posición absoluta para moverlo fuera del cuadro */
+}
+
+
+.text {
+    text-align: center; /* Centra el texto */
+}
+
+
+.name {
+    font-size: 30px;
+    color: white;
+    width: 90%;
+    margin: 0;
+}
+
+.title {
+    font-size: 20px;
+    color: white;
+    width: 115%;
+    margin: 0;
+    font-style: italic; 
+
+}
+
+.container {
+    max-width: 32%;
+    max-height: 50%;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.contacto p, .seccion p, .seccion ul {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
