@@ -11,27 +11,27 @@ body {
 
 header
 {
-    background-color: rgb(6, 6, 75); /* Fondo azul */
+    background-color: rgb(6, 6, 75); 
     padding: 20px;
-    color: white; /* Color de texto blanco */
+    color: white; 
     margin-left: 20px;
     margin-top: 1%;
     width: 90%;
 }
 
 .circle {
-    width: 110px; /* Ancho del círculo */
-    height: 110px; /* Alto del círculo */
-    border-radius: 50%; /* Hace el contorno redondeado */
-    background-color: black; /* Color del círculo */
+    width: 110px; 
+    height: 110px; 
+    border-radius: 50%; 
+    background-color: black; 
     margin-top: -30px;
     margin-left: -55px;
-    position: absolute; /* Posición absoluta para moverlo fuera del cuadro */
+    position: absolute; 
 }
 
 
 .text {
-    text-align: center; /* Centra el texto */
+    text-align: center; 
 }
 
 
